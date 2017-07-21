@@ -28,9 +28,9 @@ Things you may want to cover:
 
 * A RANDOM endpoint that randomly returns a park/business/animal.
 
-* A second custom endpoint that accepts parameters (example: a SEARCH route that allows users to search by specific park names).
+<!-- * A second custom endpoint that accepts parameters (example: a SEARCH route that allows users to search by specific park names). -->
 
-* Model scopes should be used to process parameters from API calls.
+<!-- * Model scopes should be used to process parameters from API calls. -->
 
 * At least one of the objectives from Monday's Further Exploration lesson (such as versioning, token authentication, or serialization).
 
