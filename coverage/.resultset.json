@@ -299,6 +299,19 @@
         null,
         null
       ],
+      "/Users/Guest/Desktop/parks_lookup/spec/requests/update_parks_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/parks_lookup/app/models/park.rb": [
         1,
         1,
@@ -333,8 +346,8 @@
         null,
         null,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         1,
@@ -343,9 +356,9 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
         null,
         null,
         null,
@@ -362,7 +375,7 @@
         null,
         1,
         1,
-        2,
+        3,
         null,
         null
       ],
@@ -381,11 +394,11 @@
       "/Users/Guest/Desktop/parks_lookup/app/controllers/concerns/response.rb": [
         1,
         1,
-        6,
+        7,
         null,
         null
       ]
     },
-    "timestamp": 1500674840
+    "timestamp": 1500674985
   }
 }
