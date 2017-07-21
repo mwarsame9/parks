@@ -1,7 +1,7 @@
-class QuotesController < ApplicationController
+class ParksController < ApplicationController
 
   def index
-    @parks = {"Acadia National Park in Maine"}
+    @parks = "Acadia National Park in Maine"
     json_response(@parks)
   end
 
