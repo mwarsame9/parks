@@ -1,21 +1,16 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/parks_lookup/spec/requests/get_parks_spec.rb": [
+      "/Users/Guest/Desktop/parks_lookup/spec/requests/delete_parks_spec.rb": [
         1,
-        null,
-        1,
-        3,
-        null,
-        3,
         null,
         1,
         1,
         null,
-        null,
         1,
         1,
-        null,
+        1,
+        1,
         null,
         null
       ],
@@ -260,6 +255,38 @@
         1,
         null
       ],
+      "/Users/Guest/Desktop/parks_lookup/app/models/park.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/parks_lookup/spec/requests/get_parks_spec.rb": [
+        1,
+        null,
+        1,
+        3,
+        null,
+        3,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/parks_lookup/spec/requests/paginate_parks_spec.rb": [
         1,
         null,
@@ -312,20 +339,6 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/parks_lookup/app/models/park.rb": [
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
       "/Users/Guest/Desktop/parks_lookup/app/controllers/parks_controller.rb": [
         1,
         null,
@@ -346,8 +359,8 @@
         null,
         null,
         1,
-        1,
-        1,
+        2,
+        2,
         null,
         null,
         1,
@@ -365,9 +378,9 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
         null,
         null,
         null,
@@ -394,11 +407,11 @@
       "/Users/Guest/Desktop/parks_lookup/app/controllers/concerns/response.rb": [
         1,
         1,
-        7,
+        8,
         null,
         null
       ]
     },
-    "timestamp": 1500674985
+    "timestamp": 1500675049
   }
 }
