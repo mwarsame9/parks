@@ -7,10 +7,13 @@ class ParksController < ApplicationController
     elsif params[:location]
       location = params[:location]
       @parks = Park.search_by_location(location)
+    elsif params[:park_type]
+      park_type = params[:park_type]
+      @parks = Park.search_by_park_type(park_type)
     else
       @parks = Park.all
     end
-    json_response(@parks)
+    json_response(@parks.page(params[:page]))
   end
 
   def show
