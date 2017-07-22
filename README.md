@@ -1,43 +1,37 @@
-# README
+# Parks Lookup API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### _Mohamed Warsame_
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+An api that will return a list of state and national parks
 
-* System dependencies
+## Endpoints
 
-* Configuration
+* GET http://localhost:3000/parks/:id will show an individual park by :id
+* POST http://localhost:3000/parks will post a new park.
+* PUT http://localhost:3000/parks/:id will update a park.
+* DELETE http://localhost:3000/parks/:id will delete a park with the corresponding :id.
 
-* Database creation
+## Setup/Installation Requirements
 
-* Database initialization
+* _Clone the repo_
+* _Run the following commands in the root of the project to set up the application_
+```
+$ bundle install
+$ rails db:create
+$ rails db:schema:load
+$ rails db:seed
+$ rails s
+```
 
-* How to run the test suite
+## Known Bugs
+* N/A
 
-* Services (job queues, cache servers, search engines, etc.)
+## License
 
-* Deployment instructions
+*This software is licensed under MIT license.*
 
-* ...
-
-
-<!-- * Endpoints for GET (all and by id), POST, PUT and DELETE. -->
-
-* A RANDOM endpoint that randomly returns a park/business/animal.
-
-<!-- * A second custom endpoint that accepts parameters (example: a SEARCH route that allows users to search by specific park names). -->
-
-<!-- * Model scopes should be used to process parameters from API calls. -->
-
-<!-- * At least one of the objectives from Monday's Further Exploration lesson (such as versioning, token authentication, or serialization). -->
-
-<!-- * Thorough exception handling. -->
-
-* Complete testing with request specs.
-
-<!-- * Randomized data with Faker or your own custom seed code. -->
-
-* A README that thoroughly documents all endpoints, including parameters that can be passed in.
+```
+Copyright (c) 2017 by _Mohamed Warsame_
+```
