@@ -9,4 +9,8 @@ class Park < ActiveRecord::Base
 
   max_paginates_per 10
   paginates_per 10
+
+  def self.random
+    self.all[rand(0...self.count)]
+  end
 end
