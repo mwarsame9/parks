@@ -12,6 +12,8 @@ An api that will return a list of state and national parks
 * POST http://localhost:3000/parks will post a new park.
 * PUT http://localhost:3000/parks/:id will update a park.
 * DELETE http://localhost:3000/parks/:id will delete a park with the corresponding :id.
+* GET http://localhost:3000/parks?page=1 will show the first page of parks limited here to 10.
+* GET http://localhost:3000/random will return a randomly chosen park.
 
 ## Setup/Installation Requirements
 
@@ -33,5 +35,5 @@ $ rails s
 *This software is licensed under MIT license.*
 
 ```
-Copyright (c) 2017 by _Mohamed Warsame_
+Copyright (c) 2017 by Mohamed Warsame
 ```
